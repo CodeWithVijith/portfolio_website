@@ -19,16 +19,16 @@ const HeroSection: React.FC = () => {
           </div>
           <h1 className="text-4xl font-bold mb-4">
             <span className="block text-5xl mb-2 text-black">
-              I have{" "}
+              I have &nbsp;
               <span className="font-bold text-primary">
                 Creative Frontend Development
-              </span>{" "}
+              </span> &nbsp;
               Experience
             </span>
             <span className="block text-xl mt-12">
               <span className="text-black font-normal">
                 I'm <span className="font-bold">Vijith Shekha</span>, a skilled
-                Frontend Developer. Over the past{" "}
+                Frontend Developer. Over the past &nbsp;
                 <span className="font-bold">3 years</span>, I've been dedicated
                 to assisting businesses in addressing their challenges through
                 my proficiency in frontend development.
@@ -65,21 +65,21 @@ const HeroSection: React.FC = () => {
           <div className="w-[0.03125rem] bg-primary h-[4rem] mt-20 mb-10"></div>
           <div className="flex space-y-2 flex-col ">
             <Link
-              href="https://www.facebook.com/"
+              href="https://www.facebook.com/VIJITHSHEKHAVIJI/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={facebookIcon} alt="Facebook" className="w-6 h-6" />
             </Link>
             <Link
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/vijithshekha"
               target="_blank"
               rel="noopener noreferrer"
             >
               <Image src={linkedinIcon} alt="LinkedIn" className="w-6 h-6" />
             </Link>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/codewithvijith/"
               target="_blank"
               rel="noopener noreferrer"
             >
