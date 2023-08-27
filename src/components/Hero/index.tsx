@@ -27,15 +27,15 @@ const HeroSection: React.FC = () => {
             </span>
             <span className="block text-xl mt-12">
               <span className="text-black font-normal">
-                I'm <span className="font-bold">Vijith Shekha</span>, a skilled
+                I&rsquo;m <span className="font-bold">Vijith Shekha</span>, a skilled
                 Frontend Developer. Over the past &nbsp;
-                <span className="font-bold">3 years</span>, I've been dedicated
+                <span className="font-bold">3 years</span>, I&rsquo;ve been dedicated
                 to assisting businesses in addressing their challenges through
                 my proficiency in frontend development.
               </span>
             </span>
             <span className="block text-lg mt-8 text-primary">
-              Let's Craft Your Next Vision into Reality.
+              Let&rsquo;s Craft Your Next Vision into Reality.
             </span>
             <div className="mt-8 space-x-4 flex">
               <Button variant="primary">Contact Me</Button>
