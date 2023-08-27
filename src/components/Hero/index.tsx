@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
               <Button variant="primary">Contact Me</Button>
               <Link
                 href="#portfolio"
-                className="flex items-center text-base font-normal font-medium"
+                className="flex items-center text-base font-medium"
               >
                 View Portfolio
                 <Image
