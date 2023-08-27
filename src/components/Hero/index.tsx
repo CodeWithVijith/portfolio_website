@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import welcomeImage from "../../../public/welcome.png"; 
+import welcomeImage from "../../../public/welcome.png";
 import heroImage from "../../../public/heroImage.png";
 import Button from "../Button";
 import Link from "next/link";
 import viewPortfolioIcon from "../../../public/viewPortfolio.svg";
-import instagramIcon from "../../../public/instagram.svg"; 
-import linkedinIcon from "../../../public/linkedin.svg"; 
+import instagramIcon from "../../../public/instagram.svg";
+import linkedinIcon from "../../../public/linkedin.svg";
 import facebookIcon from "../../../public/facebook.svg";
 
 const HeroSection: React.FC = () => {
@@ -22,8 +22,8 @@ const HeroSection: React.FC = () => {
               I have &nbsp;
               <span className="font-bold text-primary">
                 Creative Frontend Development
-              </span> &nbsp;
-              Experience
+              </span>
+              &nbsp; Experience
             </span>
             <span className="block text-xl mt-12">
               <span className="text-black font-normal">
@@ -60,7 +60,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="pt-20 flex flex-col items-center w-10">
           <div className="rotate-90 w-32 text-center text-primary font-bold mt-10 z-0">
-            <p>Follow me on :</p>
+            <p>Follow me on &colon;</p>
           </div>
           <div className="w-[0.03125rem] bg-primary h-[4rem] mt-20 mb-10"></div>
           <div className="flex space-y-2 flex-col ">
