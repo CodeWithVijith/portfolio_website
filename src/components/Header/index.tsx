@@ -13,7 +13,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 bg-white py-4 px-6 flex justify-between items-center">
+    <header className="sticky top-0 bg-white py-4 flex justify-between items-center z-10 px-44">
       <div className="flex items-center">
         <Link href="/">
           <Image src={logo} alt="Your Logo" width={150} height={40} />

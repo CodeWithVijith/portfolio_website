@@ -1,21 +1,12 @@
-import React from 'react';
-import Header from '@/components/Header';
+import React from "react";
+import Header from "@/components/Header";
+import HeroSection from "@/components/Hero";
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <section id="hero" className="bg-primary text-white py-20">
-      <div className="container mx-auto text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
-        <p className="text-lg mb-8">
-          I'm a passionate developer with expertise in creating awesome web applications.
-        </p>
-        <button className="bg-white text-primary py-2 px-4 rounded-full text-lg font-medium">
-          Get Started
-        </button>
-      </div>
-    </section>
+      <HeroSection />
       <section id="about" className="bg-red-300">
         <div className="container mx-auto py-24">
           <h1 className="text-4xl font-bold text-white">About Section</h1>
