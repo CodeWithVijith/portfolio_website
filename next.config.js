@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    eslint: false,
+    // eslint: false,
 }
 
 module.exports = nextConfig
