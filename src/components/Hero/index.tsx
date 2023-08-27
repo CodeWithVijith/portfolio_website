@@ -60,7 +60,7 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="pt-20 flex flex-col items-center w-10">
           <div className="rotate-90 w-32 text-center text-primary font-bold mt-10 z-0">
-            <p>Follow me on &colon;</p>
+            <p>Follow me on :</p>
           </div>
           <div className="w-[0.03125rem] bg-primary h-[4rem] mt-20 mb-10"></div>
           <div className="flex space-y-2 flex-col ">
